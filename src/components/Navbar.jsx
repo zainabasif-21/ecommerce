@@ -47,13 +47,13 @@ export function Navbar() {
                     <Link to='/about'>
                         <li className="nav-item">About</li>
                     </Link>
-                    <Link to='/feedback'>
+                    {/*<Link to='/feedback'>
                         <li className="nav-item">Feedback</li>
-                    </Link>
+                    </Link>*/}
                     <li className="nav-item"><Button onClick={handleClick}>Cart</Button></li>
                 </ul>
                 {cart && <div className='cartDiv'>
-                    This is my cart
+                        <h3>Cart</h3>
                     <Cart/>
                 </div>}
             </div>

@@ -17,8 +17,12 @@ import {useNavigate} from "react-router-dom";
 
     return (
         <><div>
-            My Cart
+            {cart.map((item)=>{
+                return (<div>Item: {item.item.name} Quantity:{item.qty} </div>)
+            })}
+
             <Button onClick={handleCheckout}>Checkout</Button>
+
         </div></>
     )
 }
