@@ -1,10 +1,12 @@
 .nav{
-
+    margin-bottom: 50px;
+    padding: 0;
+    border-bottom: none;
+    width:100%;
     list-style: none;
     display: flex;
     align-content: center;
     justify-content: center;
-
 }
 .nav-item{
     padding-left:5px;
@@ -15,4 +17,13 @@
 
 }
 
+.cartDiv{
+    position: absolute;
+    z-index: 50;
+    background-color: lavenderblush;
+    top: 65px;
+    left:60%;
+    width:40%;
+    min-height: 500px;
+}
 

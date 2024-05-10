@@ -1,5 +1,13 @@
-.app-main{
-    width: 100%;
-    height: 100%;
-    border:1px solid red;
+body{
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: beige;
+}
+.app-main {
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,0 +1,39 @@
+.cardDisplay{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+
+}
+
+.cardFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.pagination-list{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.pagination-list li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 30px;
+    width: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.hits{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.hits li{
+    display: inline-block;
+    margin: 0 5px;
+}

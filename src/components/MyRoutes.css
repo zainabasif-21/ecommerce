@@ -1,0 +1,30 @@
+
+.nav {
+    left: 0%;
+    top: 0%;
+    margin: 0px;
+    padding: 0;
+    border-bottom: none;
+    width: 100%;
+}
+.content{
+    padding: 10px;
+    margin: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer{
+    position: absolute;
+    height: 10%;
+    top:90%;
+    left: 0%;
+    width: 100%;
+    background-color: #747bff;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
